@@ -61,6 +61,7 @@ class SignUpViewController: UIViewController {
         textField.font = UIFont.systemFont(ofSize: 20)
         textField.borderStyle = .roundedRect
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "nameTextField"
         return textField
     }()
 
@@ -70,6 +71,7 @@ class SignUpViewController: UIViewController {
         textField.font = UIFont.systemFont(ofSize: 20)
         textField.borderStyle = .roundedRect
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "emailTextField"
         return textField
     }()
 
@@ -80,6 +82,7 @@ class SignUpViewController: UIViewController {
         textField.borderStyle = .roundedRect
         textField.isSecureTextEntry = true
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "passwordTextField"
         return textField
     }()
 
@@ -92,6 +95,7 @@ class SignUpViewController: UIViewController {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         button.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.accessibilityIdentifier = "loginButton"
         return button
     }()
 
@@ -108,6 +112,7 @@ class SignUpViewController: UIViewController {
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(switchButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.accessibilityIdentifier = "switchButton"
         return button
     }()
 

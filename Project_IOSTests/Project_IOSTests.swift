@@ -10,27 +10,56 @@ import XCTest
 
 final class Project_IOSTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    lazy var signUpviewModel = MockSignUpViewModel()
+    lazy var signInviewModel = MockSignInViewModel()
+
+    // MARK: - Миннехузина Аделя
+    func test_send_signUp_value() {
+
+        // GIVEN
+        let name = "Ann"
+        let email = "ann@example.com"
+        let password = "123456"
+
+        // WHEN
+        signUpviewModel.sendValue(from: name, email: email, password: password)
+
+        // THEN
+        XCTAssertEqual(signUpviewModel.receivedName, name)
+        XCTAssertEqual(signUpviewModel.receivedEmail, email)
+        XCTAssertEqual(signUpviewModel.receivedPassword, password)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    // MARK: - Миннехузина Аделя
+    func test_send_signIn_value() {
+
+        // GIVEN
+        let email = "john@example.com"
+        let password = "password"
+
+        // WHEN
+        signInviewModel.sendValue(from: email, password: password)
+
+        // THEN
+        XCTAssertEqual(signInviewModel.receivedEmail, email)
+        XCTAssertEqual(signInviewModel.receivedPassword, password)
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+    // MARK: - Миннехузина Аделя
+    func test_show_alert_closure() {
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        // GIVEN
+        let viewModel = SignUpViewModel()
+        var capturedMessage: String?
+
+        // WHEN
+        viewModel.showAlertClosure = { message in
+            capturedMessage = message
         }
+        viewModel.showAlertClosure?("Test message")
+
+        // THEN
+        XCTAssertEqual(capturedMessage, "Test message")
     }
 
 }

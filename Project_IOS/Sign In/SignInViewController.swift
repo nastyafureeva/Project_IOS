@@ -19,6 +19,8 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.accessibilityIdentifier = "SignInScreen"
+
         viewModel.showAlertClosure = { [weak self] (message: String) -> Void in
             self?.showAlert(message: message)
         }
@@ -62,6 +64,7 @@ class SignInViewController: UIViewController {
         textField.font = UIFont.systemFont(ofSize: 20)
         textField.borderStyle = .roundedRect
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "emailTextField"
         return textField
     }()
 
@@ -72,6 +75,7 @@ class SignInViewController: UIViewController {
         textField.borderStyle = .roundedRect
         textField.isSecureTextEntry = true
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.accessibilityIdentifier = "passwordTextField"
         return textField
     }()
 
@@ -84,6 +88,7 @@ class SignInViewController: UIViewController {
         button.titleLabel?.font = UIFont.systemFont(ofSize: 20)
         button.addTarget(self, action: #selector(loginButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.accessibilityIdentifier = "loginButton"
         return button
     }()
 
@@ -100,6 +105,7 @@ class SignInViewController: UIViewController {
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(switchButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.accessibilityIdentifier = "switchButton"
         return button
     }()
 
