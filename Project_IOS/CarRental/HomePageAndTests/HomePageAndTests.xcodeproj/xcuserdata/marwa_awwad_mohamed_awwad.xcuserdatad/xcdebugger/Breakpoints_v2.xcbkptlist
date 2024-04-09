@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "73F68A59-096A-4041-9803-5593058C0864"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HomePageAndTestsTests/HomePageAndTestsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "HomePageAndTestsTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - 666e1c047b98d5d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - eb82afc541e6f593"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - 9cbc3c39eee55816"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - dd8454701e480e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.init(selector: ObjectiveC.Selector) -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - db3a2f1ecd7fcbaa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.__allocating_init() -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - 68e317f5f4bd84ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.init() -&gt; HomePageAndTestsTests.HomePageAndTestsTests"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5ABB80F9-0748-4FAE-B160-4E6811EE83FE - 8d0e85547bf7d8fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HomePageAndTestsTests.HomePageAndTestsTests.__deallocating_deinit"
+                  moduleName = "HomePageAndTestsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marwa_awwad_mohamed_awwad/Desktop/swift%20UIkit/HomePageAndTests/HomePageAndTestsTests/HomePageAndTestsTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
