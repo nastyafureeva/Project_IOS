@@ -34,7 +34,7 @@ final class ConversationsViewController: UIViewController {
         return button
     }()
 
-    private let viewModel: ConversationsViewModel
+     let viewModel: ConversationsViewModel
 
     private var cancellables = Set<AnyCancellable>()
 

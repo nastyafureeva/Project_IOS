@@ -21,6 +21,7 @@
 		28D546372C03C82D0066539E /* EpubReaderLight in Frameworks */ = {isa = PBXBuildFile; productRef = 28D546362C03C82D0066539E /* EpubReaderLight */; };
 		28D546392C03CA210066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub in Resources */ = {isa = PBXBuildFile; fileRef = 28D546382C03C8450066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub */; };
 		28D5463D2C03D4940066539E /* ConversationsViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5463C2C03D4940066539E /* ConversationsViewControllerUITests.swift */; };
+		28D546412C03DB1E0066539E /* ConversationsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D546402C03DB1E0066539E /* ConversationsViewModelTests.swift */; };
 		DDA968312BC310EB0024C983 /* MockViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968302BC310EB0024C983 /* MockViewModels.swift */; };
 		DDA968352BC3114D0024C983 /* LoginSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */; };
 		DDA968382BC3129C0024C983 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDA968372BC3129C0024C983 /* FirebaseAuth */; };
@@ -66,6 +67,7 @@
 		28D546332C03AC650066539E /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		28D546382C03C8450066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub"; sourceTree = "<group>"; };
 		28D5463C2C03D4940066539E /* ConversationsViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewControllerUITests.swift; sourceTree = "<group>"; };
+		28D546402C03DB1E0066539E /* ConversationsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModelTests.swift; sourceTree = "<group>"; };
 		DDA968302BC310EB0024C983 /* MockViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModels.swift; sourceTree = "<group>"; };
 		DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSnapshotTest.swift; sourceTree = "<group>"; };
 		DDDBC7532BB1507000769AA3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				DDA968302BC310EB0024C983 /* MockViewModels.swift */,
 				DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */,
 				28D5463C2C03D4940066539E /* ConversationsViewControllerUITests.swift */,
+				28D546402C03DB1E0066539E /* ConversationsViewModelTests.swift */,
 			);
 			path = Project_IOSTests;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 			files = (
 				DDA968312BC310EB0024C983 /* MockViewModels.swift in Sources */,
 				28D5463D2C03D4940066539E /* ConversationsViewControllerUITests.swift in Sources */,
+				28D546412C03DB1E0066539E /* ConversationsViewModelTests.swift in Sources */,
 				FBF1AECB2BB05E730045F9E9 /* Project_IOSTests.swift in Sources */,
 				DDA968352BC3114D0024C983 /* LoginSnapshotTest.swift in Sources */,
 			);
