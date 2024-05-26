@@ -7,7 +7,6 @@
 
 import Foundation
 import FirebaseAuth
-
 // MARK: - Миннехузина Аделя
 protocol SignUpViewModelDelegate {
     func sendValue(from name: String?, email: String?, password: String?)

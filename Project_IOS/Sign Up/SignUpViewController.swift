@@ -9,7 +9,6 @@ import UIKit
 
 // MARK: - Миннехузина Аделя
 class SignUpViewController: UIViewController {
-
     private var viewModel = SignUpViewModel()
 
     override func viewDidLoad() {
@@ -166,7 +165,12 @@ extension SignUpViewController: ViewControllerDelegate {
         guard let email = email else { return }
         print("User successfully signed up!")
         displayData(data: [name, email])
-
+  
+        let vc = ConversationsViewController()
+        let conversationsViewController = UINavigationController(rootViewController: vc)
+        vc.title = "Чаты"
+        conversationsViewController.modalPresentationStyle = .fullScreen
+        present(conversationsViewController, animated: true)
         // TODO: push to profile screen
     }
 

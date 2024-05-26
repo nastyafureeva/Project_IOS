@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286288C42BC412C6008EC561 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 286288C32BC412C6008EC561 /* MessageKit */; };
+		286288C72BC414A2008EC561 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 286288C62BC414A2008EC561 /* JGProgressHUD */; };
+		286288CA2BC4173F008EC561 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 286288C92BC4173F008EC561 /* Realm */; };
+		286288CC2BC4173F008EC561 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 286288CB2BC4173F008EC561 /* RealmSwift */; };
+		286288CF2BC417A1008EC561 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 286288CE2BC417A1008EC561 /* SDWebImage */; };
+		286288D12BC417A1008EC561 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 286288D02BC417A1008EC561 /* SDWebImageMapKit */; };
+		286288D42BC41D16008EC561 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286288D32BC41D16008EC561 /* ConversationsViewController.swift */; };
+		286288D62BC42E0F008EC561 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286288D52BC42E0F008EC561 /* ChatViewController.swift */; };
+		28D5462E2C0397640066539E /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5462D2C0397640066539E /* NewConversationViewController.swift */; };
+		28D546302C03A9580066539E /* ConversationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5462F2C03A9580066539E /* ConversationsViewModel.swift */; };
+		28D546342C03AC650066539E /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D546332C03AC650066539E /* BookViewController.swift */; };
+		28D546372C03C82D0066539E /* EpubReaderLight in Frameworks */ = {isa = PBXBuildFile; productRef = 28D546362C03C82D0066539E /* EpubReaderLight */; };
+		28D546392C03CA210066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub in Resources */ = {isa = PBXBuildFile; fileRef = 28D546382C03C8450066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub */; };
 		DDA968312BC310EB0024C983 /* MockViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968302BC310EB0024C983 /* MockViewModels.swift */; };
 		DDA968352BC3114D0024C983 /* LoginSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */; };
 		DDA968382BC3129C0024C983 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDA968372BC3129C0024C983 /* FirebaseAuth */; };
@@ -45,6 +58,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286288D32BC41D16008EC561 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		286288D52BC42E0F008EC561 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		28D5462D2C0397640066539E /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		28D5462F2C03A9580066539E /* ConversationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewModel.swift; sourceTree = "<group>"; };
+		28D546332C03AC650066539E /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		28D546382C03C8450066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub"; sourceTree = "<group>"; };
 		DDA968302BC310EB0024C983 /* MockViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModels.swift; sourceTree = "<group>"; };
 		DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSnapshotTest.swift; sourceTree = "<group>"; };
 		DDDBC7532BB1507000769AA3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +90,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286288CF2BC417A1008EC561 /* SDWebImage in Frameworks */,
 				DDDBC7632BB152C200769AA3 /* FirebaseAuth in Frameworks */,
+				286288C72BC414A2008EC561 /* JGProgressHUD in Frameworks */,
+				286288CA2BC4173F008EC561 /* Realm in Frameworks */,
+				286288CC2BC4173F008EC561 /* RealmSwift in Frameworks */,
+				286288D12BC417A1008EC561 /* SDWebImageMapKit in Frameworks */,
+				28D546372C03C82D0066539E /* EpubReaderLight in Frameworks */,
+				286288C42BC412C6008EC561 /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286288D22BC41BE7008EC561 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				28D546382C03C8450066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub */,
+				286288D32BC41D16008EC561 /* ConversationsViewController.swift */,
+				28D5462F2C03A9580066539E /* ConversationsViewModel.swift */,
+				286288D52BC42E0F008EC561 /* ChatViewController.swift */,
+				28D5462D2C0397640066539E /* NewConversationViewController.swift */,
+				28D546332C03AC650066539E /* BookViewController.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
 		DDA968362BC3129C0024C983 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +190,7 @@
 				FBF1AEC12BB05E730045F9E9 /* Info.plist */,
 				DDDBC75F2BB1526000769AA3 /* GoogleService-Info.plist */,
 				FBF1AEB92BB05E700045F9E9 /* Project_IOS.xcdatamodeld */,
+				286288D22BC41BE7008EC561 /* Conversation */,
 				DDDBC7572BB1508C00769AA3 /* Sign In */,
 				DDDBC75C2BB150C200769AA3 /* Sign Up */,
 			);
@@ -193,6 +233,13 @@
 			name = Project_IOS;
 			packageProductDependencies = (
 				DDDBC7622BB152C200769AA3 /* FirebaseAuth */,
+				286288C32BC412C6008EC561 /* MessageKit */,
+				286288C62BC414A2008EC561 /* JGProgressHUD */,
+				286288C92BC4173F008EC561 /* Realm */,
+				286288CB2BC4173F008EC561 /* RealmSwift */,
+				286288CE2BC417A1008EC561 /* SDWebImage */,
+				286288D02BC417A1008EC561 /* SDWebImageMapKit */,
+				28D546362C03C82D0066539E /* EpubReaderLight */,
 			);
 			productName = Project_IOS;
 			productReference = FBF1AEAD2BB05E700045F9E9 /* Project_IOS.app */;
@@ -273,6 +320,11 @@
 			packageReferences = (
 				DDDBC7612BB152C200769AA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				DDA9683B2BC313A60024C983 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				286288C22BC412C6008EC561 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				286288C52BC414A2008EC561 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				286288C82BC4173F008EC561 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				286288CD2BC417A1008EC561 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				28D546352C03C82D0066539E /* XCRemoteSwiftPackageReference "epub-reader-light" */,
 			);
 			productRefGroup = FBF1AEAE2BB05E700045F9E9 /* Products */;
 			projectDirPath = "";
@@ -290,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D546392C03CA210066539E /* Geyko Yuriy. Avtolikbez - BooksCafe.Net.epub in Resources */,
 				FBF1AEC02BB05E730045F9E9 /* LaunchScreen.storyboard in Resources */,
 				FBF1AEBD2BB05E730045F9E9 /* Assets.xcassets in Resources */,
 				DDDBC7602BB1526000769AA3 /* GoogleService-Info.plist in Resources */,
@@ -322,8 +375,13 @@
 				DDDBC75B2BB150BC00769AA3 /* SignUpViewModel.swift in Sources */,
 				FBF1AEBB2BB05E700045F9E9 /* Project_IOS.xcdatamodeld in Sources */,
 				DDDBC7562BB1508400769AA3 /* SignInViewModel.swift in Sources */,
+				28D5462E2C0397640066539E /* NewConversationViewController.swift in Sources */,
 				FBF1AEB12BB05E700045F9E9 /* AppDelegate.swift in Sources */,
+				286288D42BC41D16008EC561 /* ConversationsViewController.swift in Sources */,
 				DDDBC7542BB1507000769AA3 /* SignInViewController.swift in Sources */,
+				28D546342C03AC650066539E /* BookViewController.swift in Sources */,
+				28D546302C03A9580066539E /* ConversationsViewModel.swift in Sources */,
+				286288D62BC42E0F008EC561 /* ChatViewController.swift in Sources */,
 				FBF1AEB32BB05E700045F9E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,6 +717,46 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		286288C22BC412C6008EC561 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		286288C52BC414A2008EC561 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		286288C82BC4173F008EC561 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		286288CD2BC417A1008EC561 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.1;
+			};
+		};
+		28D546352C03C82D0066539E /* XCRemoteSwiftPackageReference "epub-reader-light" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pichukov/epub-reader-light.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 		DDA9683B2BC313A60024C983 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
@@ -678,6 +776,41 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		286288C32BC412C6008EC561 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288C22BC412C6008EC561 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		286288C62BC414A2008EC561 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288C52BC414A2008EC561 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		286288C92BC4173F008EC561 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288C82BC4173F008EC561 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		286288CB2BC4173F008EC561 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288C82BC4173F008EC561 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		286288CE2BC417A1008EC561 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288CD2BC417A1008EC561 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		286288D02BC417A1008EC561 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286288CD2BC417A1008EC561 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		28D546362C03C82D0066539E /* EpubReaderLight */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28D546352C03C82D0066539E /* XCRemoteSwiftPackageReference "epub-reader-light" */;
+			productName = EpubReaderLight;
+		};
 		DDA968372BC3129C0024C983 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DDDBC7612BB152C200769AA3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

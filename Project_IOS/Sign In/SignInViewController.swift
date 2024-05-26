@@ -160,6 +160,11 @@ extension SignInViewController: ViewControllerDelegate {
         print("User successfully signed in!")
         print("Name: \(name), Email: \(email)")
 
+        let vc = ConversationsViewController()
+        let conversationsViewController = UINavigationController(rootViewController: vc)
+        vc.title = "Чаты"
+        conversationsViewController.modalPresentationStyle = .fullScreen
+        present(conversationsViewController, animated: true)
         // TODO: push to profile screen
     }
 
