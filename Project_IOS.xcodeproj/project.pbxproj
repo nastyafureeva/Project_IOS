@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD0D842E2C03A5770021212F /* SUISignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0D842D2C03A5770021212F /* SUISignInView.swift */; };
 		DDA968312BC310EB0024C983 /* MockViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968302BC310EB0024C983 /* MockViewModels.swift */; };
 		DDA968352BC3114D0024C983 /* LoginSnapshotTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */; };
 		DDA968382BC3129C0024C983 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDA968372BC3129C0024C983 /* FirebaseAuth */; };
 		DDA9683D2BC313A60024C983 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = DDA9683C2BC313A60024C983 /* SnapshotTesting */; };
-		DDDBC7542BB1507000769AA3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC7532BB1507000769AA3 /* SignInViewController.swift */; };
 		DDDBC7562BB1508400769AA3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC7552BB1508400769AA3 /* SignInViewModel.swift */; };
 		DDDBC7592BB150A600769AA3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC7582BB150A600769AA3 /* SignUpViewController.swift */; };
 		DDDBC75B2BB150BC00769AA3 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDBC75A2BB150BC00769AA3 /* SignUpViewModel.swift */; };
@@ -45,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD0D842D2C03A5770021212F /* SUISignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUISignInView.swift; sourceTree = "<group>"; };
 		DDA968302BC310EB0024C983 /* MockViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockViewModels.swift; sourceTree = "<group>"; };
 		DDA968342BC3114D0024C983 /* LoginSnapshotTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSnapshotTest.swift; sourceTree = "<group>"; };
-		DDDBC7532BB1507000769AA3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DDDBC7552BB1508400769AA3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		DDDBC7582BB150A600769AA3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DDDBC75A2BB150BC00769AA3 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		DDDBC7572BB1508C00769AA3 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
-				DDDBC7532BB1507000769AA3 /* SignInViewController.swift */,
 				DDDBC7552BB1508400769AA3 /* SignInViewModel.swift */,
+				DD0D842D2C03A5770021212F /* SUISignInView.swift */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -319,11 +319,11 @@
 			files = (
 				FBF1AEB52BB05E700045F9E9 /* ViewController.swift in Sources */,
 				DDDBC7592BB150A600769AA3 /* SignUpViewController.swift in Sources */,
+				DD0D842E2C03A5770021212F /* SUISignInView.swift in Sources */,
 				DDDBC75B2BB150BC00769AA3 /* SignUpViewModel.swift in Sources */,
 				FBF1AEBB2BB05E700045F9E9 /* Project_IOS.xcdatamodeld in Sources */,
 				DDDBC7562BB1508400769AA3 /* SignInViewModel.swift in Sources */,
 				FBF1AEB12BB05E700045F9E9 /* AppDelegate.swift in Sources */,
-				DDDBC7542BB1507000769AA3 /* SignInViewController.swift in Sources */,
 				FBF1AEB32BB05E700045F9E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

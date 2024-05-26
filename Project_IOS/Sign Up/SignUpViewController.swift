@@ -6,8 +6,13 @@
 //
 
 import UIKit
+import SwiftUI
 
 // MARK: - Миннехузина Аделя
+protocol ViewControllerDelegate: AnyObject {
+    func getInfoBack(name: String?, email: String?)
+}
+
 class SignUpViewController: UIViewController {
 
     private var viewModel = SignUpViewModel()
@@ -31,9 +36,10 @@ class SignUpViewController: UIViewController {
     }
 
     @objc private func switchButtonTapped() {
-        let signInViewController = SignInViewController()
-        signInViewController.modalPresentationStyle = .fullScreen
-        present(signInViewController, animated: true)
+        let signInView = SUISignInView(viewModel: SignInViewModel())
+        let hostingController = UIHostingController(rootView: signInView)
+        hostingController.modalPresentationStyle = .fullScreen
+        present(hostingController, animated: true)
     }
 
     func showAlert(message: String) {
